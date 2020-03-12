@@ -1,0 +1,30 @@
+{
+  "name": "npmexercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-jaimes-puente/npmexercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor-jaimes-puente/npmexercises/issues"
+  },
+  "homepage": "https://github.com/victor-jaimes-puente/npmexercises#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.15",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

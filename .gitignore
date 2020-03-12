@@ -1,0 +1,9 @@
+.idea/*
+*.iml
+.DS_STORE
+test-ignore.js
+test-ignore.html
+jsTest2PracticeIgonre.html
+test-ignore.css
+js/keys.
+node_modules
