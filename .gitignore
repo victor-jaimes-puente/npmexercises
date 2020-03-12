@@ -7,3 +7,5 @@ jsTest2PracticeIgonre.html
 test-ignore.css
 js/keys.
 node_modules
+public/main.js
+*.map
