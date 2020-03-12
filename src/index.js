@@ -1,13 +1,12 @@
-const $ = require('jquery');
-const testRequire = require('./public/say-hello.js');
-console.log('sayHello');
-document.write('testingForVic');
-document.write(' How else should we test this?');
+// REQUIRE.TEST
 
-// addingHTML
+// const $ = require('jquery');
 
-$('body').append('<h1>Hello Vic</h1><h2> hello</h2>');
-$('h1').css('background', 'red');
-$('h2').css('background', 'red');
+// IMPORT.TEST
 
-testRequire.sayHello;
+import hello from './say-hello.js';
+const testRequire = require('./say-hello.js');
+
+hello.sayHello;
+// testRequire.sayHello;
+
